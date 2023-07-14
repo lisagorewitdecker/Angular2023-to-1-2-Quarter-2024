@@ -6,6 +6,5 @@ updates:
       interval: "daily"
     ignore:
       - dependency-name: "lodash"
-        # For Lodash, ignore all updates
-    # Disable version updates for npm dependencies
+    # For Lodash, ignore all updates
     open-pull-requests-limit: 0
