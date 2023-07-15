@@ -18,7 +18,6 @@ setTimeout(() => {
 }, 2000);
   
 }
-
   ngOnInit() {
   }
 
