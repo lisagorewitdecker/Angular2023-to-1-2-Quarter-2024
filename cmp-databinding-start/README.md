@@ -1,6 +1,26 @@
-# FirstApp
+# CMPDataBindingStart
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+
+## What Has Been Accomplished & Gone Over In This Section:
+
+<ul>
+	<li>Module Introduction</li>
+	<li>Splitting Apps Into Components</li>
+	<li>Property & Event Binding Overview</li>
+	<li>Binding To Custom Properties</li>
+	<li>Assigning An Alias To Custom Properties</li>
+	<li>Binding To Custom Events</li>
+	<li>Assigning An Alias to Custom Events</li>
+	<li>Custom Property & Event Binding Summary</li>
+	<li>Understanding View Encapsulation</li>
+	<li>More On View Encapsulation</li>
+	<li>Using Local References In Templates</li>
+	<li>@ViewChild() In Angular 8+</li>
+	<li>Getting Access To The Template & DOM With @ViewChild</li>
+	<li>Projecting Content Into Components With ng-content</li>
+	<li>Understanding The Component Lifecycle (See Lifecycles.pdf) </li>
+</ul>
 
 ## Development server
 
