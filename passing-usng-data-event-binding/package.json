@@ -22,7 +22,7 @@
     "@babel/core": "^7.22.9",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "webpack": ">=5.76.0",
+    "webpack": ">=5.90.0",
     "zone.js": "~0.13.1"
   },
   "devDependencies": {
@@ -39,6 +39,6 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.9.4",
-    "webpack": ">=5.76.0"
+    "webpack": ">=5.90.0"
   }
 }
