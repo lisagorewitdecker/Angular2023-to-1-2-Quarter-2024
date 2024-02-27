@@ -1,6 +1,6 @@
 {
   "name": "combining-forms-databinding",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -25,6 +25,7 @@
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "webpack": ">=5.88.2",
+    "postcss": ">=8.4.35",
     "zone.js": "~0.13.1"
   },
   "devDependencies": {
@@ -41,6 +42,10 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.9.4",
-    "webpack": ">=5.88.2"
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "webpack": ">=5.88.2",
+    "postcss": ">=8.4.35",
+    "zone.js": "~0.13.1"
   }
 }
