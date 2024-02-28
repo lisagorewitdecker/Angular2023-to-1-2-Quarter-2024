@@ -21,7 +21,7 @@
     "rxjs": "~7.8.1",
     "tslib": "^2.6.2",
     "webpack": ">=5.88.2",
-    "postcss": ">=8.4.35",
+    "postcss": ">=8.4.31",
     "zone.js": "^0.14.3"
   },
   "devDependencies": {
@@ -41,7 +41,7 @@
     "rxjs": "~7.8.1",
     "tslib": "^2.6.2",
     "webpack": ">=5.88.2",
-    "postcss": ">=8.4.35",
+    "postcss": ">=8.4.31",
     "zone.js": "^0.14.3"
   }
 }
