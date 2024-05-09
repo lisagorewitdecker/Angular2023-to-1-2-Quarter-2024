@@ -22,10 +22,10 @@
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4",
-    "webpack-dev-middleware": ">=6.1.2"
+    "webpack-dev-middleware": ">=7.2.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.3.1",
+    "@angular-devkit/build-angular": "^17.3.7",
     "@angular/cli": "~14.2.7",
     "@angular/compiler-cli": "^14.2.0",
     "@types/jasmine": "~4.0.0",
@@ -40,7 +40,7 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1",
-    "webpack-dev-middleware": ">=6.1.2"
+    "webpack-dev-middleware": ">=7.2.0"
   },
   "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.",
   "main": "karma.conf.js",
