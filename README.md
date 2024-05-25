@@ -11,7 +11,7 @@ The source code can be found at <a href="https://github.com/lisagorewitdecker/An
 <b>git clone</b>
 
 Create a Feature Branch and Push To It. You Can Do a Remote Commit With the Following:<br>
-<b>git checkout main</b><br>
+<b>git checkout master</b><br>
 <b>git pull</b><br>
 <b>git checkout -b your_feature_branch_goes_here</b><br>
 Make your edits
@@ -33,7 +33,7 @@ To Commit: <br>
 
 Then navigate to the pull requests page at github.com within the repository and choose <b>New pull request</b> in order to create a request to merge your feature branch into main.<br>
 
-When you are ready to Merge your feature branch into main, click the <b>Merge</b> button and let the github website perform the actual change to main. You can then close the source branch on github and delete your local branch with:<br>
+When you are ready to Merge your feature branch into master, click the <b>Merge</b> button and let the github website perform the actual change to main. You can then close the source branch on github and delete your local branch with:<br>
 <b>git checkout main && git pull && git branch -d your_feature_branch_goes_here</b>
 
 Try to make your feature branch as short and descriptive as you can be. If you have to refactor due to your change(s), create one feature branch for refactoring, another that will build on it.
