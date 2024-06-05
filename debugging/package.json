@@ -29,7 +29,8 @@
     "webpack": ">=5.88.2",
     "webpack-dev-middleware": ">=7.1.1",
     "postcss": ">=8.4.31",
-    "zone.js": "~0.13.1"
+    "zone.js": "~0.13.1",
+    "ip": "<= 2.0.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.1.2",
@@ -50,6 +51,7 @@
     "webpack": ">=5.88.2",
     "webpack-dev-middleware": ">=7.1.1",
     "postcss": ">=8.4.31",
-    "zone.js": "~0.13.1"
+    "zone.js": "~0.13.1",
+    "ip": "<= 2.0.1"
   }
 }
