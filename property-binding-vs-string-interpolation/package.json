@@ -23,7 +23,8 @@
     "rxjs": "~7.8.1",
     "tslib": "^2.6.2",
     "zone.js": "~0.13.1",
-    "webpack": ">=5.76.0"
+    "webpack": ">=5.76.0",
+    "ip": "<= 2.0.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.2.9",
@@ -37,6 +38,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "webpack": ">=5.76.0",
-    "typescript": "~4.9.4"
+    "typescript": "~4.9.4",
+    "ip": "<= 2.0.1"
   }
 }
