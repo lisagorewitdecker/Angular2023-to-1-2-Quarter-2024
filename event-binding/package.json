@@ -23,7 +23,8 @@
     "postcss": ">=8.4.35",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.14.3"
+    "zone.js": "~0.14.3",
+    "ip": "<= 2.0.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.2.9",
@@ -36,9 +37,11 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "postcss": ">=8.4.35",
     "webpack": ">=5.90.1",
     "webpack-dev-middleware": ">=6.1.2",
-    "postcss": ">=8.4.35",
-    "typescript": "~4.9.4"
+    "typescript": "~4.9.4",
+    "zone.js": "~0.14.3",
+    "ip": "<= 2.0.1"
   }
 }
