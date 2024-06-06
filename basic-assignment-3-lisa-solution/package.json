@@ -23,7 +23,7 @@
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "webpack": ">=5.76.0",
-    "webpack-dev-middleware": ">=7.1.0",
+    "webpack-dev-middleware": ">=7.1.1",
     "postcss": ">=8.4.31", 
     "zone.js": "~0.12.0",
     "ip": "<= 2.0.1"
@@ -45,7 +45,7 @@
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "webpack": ">=5.76.0",
-    "webpack-dev-middleware": ">=7.1.0",
+    "webpack-dev-middleware": ">=7.1.1",
     "postcss": ">=8.4.31", 
     "zone.js": "~0.12.0",
     "ip": "<= 2.0.1"
