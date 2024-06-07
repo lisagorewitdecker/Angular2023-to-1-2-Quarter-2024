@@ -23,8 +23,8 @@
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "webpack": ">=5.76.0",
-    "webpack-dev-middleware": ">=7.2.1",
-    "postcss": ">=8.4.31", 
+    "webpack-dev-middleware": ">=6.1.2",
+    "postcss": ">=8.4.31", t
     "zone.js": "~0.12.0",
     "ip": "<= 2.0.1"
   },
@@ -43,6 +43,7 @@
     "bootstrap": "^5.3.0-alpha3",
     "bootstrap-icons": "^1.11.3",
     "webpack": ">=5.76.0",
+    "webpack-dev-middleware": ">=6.1.2",
     "postcss": ">=8.4.31",
     "rxjs": "~7.8.1",
     "tslib": "^2.5.3",
