@@ -24,12 +24,12 @@
         "rxjs": "~7.8.1",
         "semver": ">=7.5.2",
         "tslib": "^2.6.2",
-        "webpack": ">=5.76.0",
+        "webpack": ">=5.94.0",
         "zone.js": "~0.14.3",
         "ip": "<= 2.0.1"
       },
       "devDependencies": {
-        "@angular-devkit/build-angular": "^17.3.7",
+        "@angular-devkit/build-angular": "^17.3.9",
         "@angular/cli": "~14.2.7",
         "@angular/compiler-cli": "^14.2.0",
         "@babel/cli": "^7.22.9",
@@ -45,7 +45,7 @@
         "karma-jasmine-html-reporter": "~2.0.0",
         "semver": ">=7.5.2",
         "typescript": "~4.7.2",
-        "webpack": ">=5.76.0",
+        "webpack": ">=5.94.0",
         "zone.js": "~0.14.3",
         "ip": "<= 2.0.1"
       }
