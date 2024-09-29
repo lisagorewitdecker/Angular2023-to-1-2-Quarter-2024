@@ -29,7 +29,8 @@
     "webpack": ">=5.76.0",
     "postcss": ">=8.4.35",
     "vite": ">=4.5.2",
-    "zone.js": "~0.13.1"
+    "zone.js": "~0.13.1".
+    "rollup": ">=4.22.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.1.5",
@@ -50,6 +51,7 @@
     "typescript": "~4.9.4",
     "webpack": ">=5.76.0",
     "postcss": ">=8.4.35",
-    "vite": ">=4.5.2"
+    "vite": ">=4.5.2",
+    "rollup": ">=4.22.4"
   }
 }
