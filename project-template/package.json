@@ -27,7 +27,7 @@
     "rollup": ">=4.22.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.3.7",
+    "@angular-devkit/build-angular": "^17.3.10",
     "@angular/cli": "~14.2.7",
     "@angular/compiler-cli": "^14.2.0",
     "@types/jasmine": "~4.0.0",

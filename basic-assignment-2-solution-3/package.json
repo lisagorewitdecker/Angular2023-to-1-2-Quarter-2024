@@ -20,13 +20,13 @@
     "@angular/router": "^15.2.9",
     "rxjs": "~7.8.1",
     "tslib": "^2.6.2",
-    "webpack": ">=5.88.2",
+    "webpack": ">=5.94.0",
     "postcss": ">=8.4.31",
     "zone.js": "^0.14.3",
     "ip": "<= 2.0.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^15.2.9",
+    "@angular-devkit/build-angular": "^18.2.6",
     "@angular/cli": "^15.2.9",
     "@angular/compiler-cli": "^15.2.9",
     "@babel/cli": "^7.22.9",
@@ -41,7 +41,7 @@
     "typescript": "~4.9.4",
     "rxjs": "~7.8.1",
     "tslib": "^2.6.2",
-    "webpack": ">=5.88.2",
+    "webpack": ">=5.94.0",
     "postcss": ">=8.4.31",
     "zone.js": "^0.14.3",
     "ip": "<= 2.0.1"
