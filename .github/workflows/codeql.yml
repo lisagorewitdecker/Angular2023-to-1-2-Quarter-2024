@@ -32,7 +32,6 @@ jobs:
     permissions:
       # required for all workflows
       security-events: write
-
       # only required for workflows in private repositories
       actions: read
       contents: read
@@ -40,7 +39,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: ['javascript-typescript']
+        language: ["javascript,typescript"]
         # CodeQL supports [ 'c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift' ]
         # Use only 'java-kotlin' to analyze code written in Java, Kotlin or both
         # Use only 'javascript-typescript' to analyze code written in JavaScript, TypeScript or both
@@ -54,14 +53,11 @@ jobs:
     # 📚 See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
 
     #   If the Autobuild fails above, remove it and uncomment the following three lines.
-    #   modify them (or add more) to build your code if your project, please refer to the EXAMPLE below for guidance.
-
+    #   modify them (or add more) to build your code if your project, please refer to the EXAMPLE below for guidance
 
     # Autobuild attempts to build any compiled languages.
     # - name: Autobuild
     #  uses: github/codeql-action/autobuild@v3
-
-
     # - run: |
     #     echo "Run, Build Application using script"
     #     ./location_of_script_within_repo/buildscript.sh
