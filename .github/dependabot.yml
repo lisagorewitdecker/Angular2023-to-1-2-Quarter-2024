@@ -1,6 +1,9 @@
- - name: Setup Node.js environment
-  uses: actions/setup-node@v4.0.4
-  with:
+     - dependency-name: "lodash"
+    # For Lodash, ignore all updates
+    open-pull-requests-limit: 1000
+    - name: Setup Node.js environment
+    uses: actions/setup-node@v4.0.2
+    with:
     # Set always-auth in npmrc.
     always-auth: # optional, default is false
     # Version Spec of the version to use. Examples: 12.x, 10.15.1, >=10.15.0.
@@ -21,4 +24,3 @@
     cache: # optional
     # Used to specify the path to a dependency file: package-lock.json, yarn.lock, etc. Supports wildcards or a list of file names for caching multiple dependencies.
     cache-dependency-path: # optional
-          
