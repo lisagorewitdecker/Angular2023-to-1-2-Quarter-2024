@@ -1,4 +1,4 @@
-  - dependency-name: "lodash"
+ - dependency-name: "lodash"
     # For Lodash, ignore all updates
     open-pull-requests-limit: 1000
     - name: Setup Node.js environment
