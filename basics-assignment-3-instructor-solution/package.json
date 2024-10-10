@@ -19,7 +19,7 @@
     "@angular/platform-browser": "~11.2.14",
     "@angular/platform-browser-dynamic": "~11.2.14",
     "@angular/router": "~11.2.14",
-    "bootstrap": "5.0.0",
+    "bootstrap": "5.3.3",
     "karma": ">=6.3.16",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
