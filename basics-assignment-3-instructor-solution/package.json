@@ -19,11 +19,11 @@
     "@angular/platform-browser": "~11.2.14",
     "@angular/platform-browser-dynamic": "~11.2.14",
     "@angular/router": "~11.2.14",
-    "bootstrap": "5.0.0",
+    "bootstrap": "5.3.3",
     "karma": ">=6.3.16",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.13.1",
+    "zone.js": "~0.15.0",
     "rxjs-compat": "^6.0.0"
   },
   "devDependencies": {
