@@ -1,14 +1,7 @@
-version: 1
-updates:
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    ignore:
-      - dependency-name: "lodash"
+
+     - dependency-name: "lodash"
     # For Lodash, ignore all updates
     open-pull-requests-limit: 1000
-
     - name: Setup Node.js environment
     uses: actions/setup-node@v4.0.2
     with:
@@ -32,4 +25,3 @@ updates:
     cache: # optional
     # Used to specify the path to a dependency file: package-lock.json, yarn.lock, etc. Supports wildcards or a list of file names for caching multiple dependencies.
     cache-dependency-path: # optional
-          
