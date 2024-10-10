@@ -11,4 +11,9 @@ updates:
     schedule:
       interval: "daily"
 
- 
+  # Enable version updates for node
+  - package-ecosystem: "node"
+    directory: "/"
+    # Check for updates once a week
+    schedule:
+      interval: "weekly"
