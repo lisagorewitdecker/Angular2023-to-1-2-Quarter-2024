@@ -1,5 +1,4 @@
 version: 2
-
 updates:
 
   # Maintain dependencies for GitHub Actions
@@ -7,56 +6,16 @@ updates:
     # Workflow files stored in the default location of `.github/workflows`. (You don't need to specify `/.github/workflows` for `directory`. You can use `directory: "/"`.)
     directory: "/"
     schedule:
-      interval: "weekly"
-    ignore:
-      - dependency-name: "*"
-        update-types: [ "version-update:semver-patch" ]
+      interval: "daily"
 
+  # Maintain dependencies for npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
 
-  - package-ecosystem: "pip"
-    directory:
-      - "processing/intern_depend/cirq_logger"
-      - "processing/intern_depend/config_loader"
-      - "processing/intern_depend/flasker"
-      - "processing/intern_depend/pointqloud"
-      - "processing/intern_depend"
-      - "processing/containers/exporter"
-      - "processing/containers/preprocessor"
-      - "processing/containers/segmentor"
-      - "processing/containers/separator"
-      - "processing/containers/vectoriser"
+  # Maintain dependencies for Composer
+  - package-ecosystem: "composer"
+    directory: "/"
     schedule:
       interval: "weekly"
-    ignore:
-      - dependency-name: "*"
-        update-types: [ "version-update:semver-patch" ]
-    groups:
-      patches:
-        applies-to: version-updates
-        patterns:
-          - "*"
-        update-types:
-          - "patch"
-
-      minor:
-        applies-to: version-updates
-        patterns:
-          - "*"
-        update-types:
-          - "minor"
-
-
-
-  - package-ecosystem: "docker"
-    directory:
-      - "processing/intern_depend"
-      - "processing/containers/exporter"
-      - "processing/containers/preprocessor"
-      - "processing/containers/segmentor"
-      - "processing/containers/separator"
-      - "processing/containers/vectoriser"
-    schedule:
-      interval: "weekly"
-    ignore:
-      - dependency-name: "*"
-        update-types: [ "version-update:semver-patch" ]
