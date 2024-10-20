@@ -28,9 +28,9 @@ jobs:
     #   - https://gh.io/supported-runners-and-hardware-resources
     #   - https://gh.io/using-larger-runners
     # Consider using larger runners for possible analysis time improvements.
-    runs-on: ${{ (matrix.language == 'javascript-microsoft/Typescriptt' && 'macos-latest') || 'ubuntu-latest' }}
+    runs-on: ${{ (matrix.language == 'javascript-microsoft/Typescript' && 'macos-latest') || 'ubuntu-latest' }}
 
-    timeout-minutes: ${{ (matrix.language == 'javascript-typescript') || 360 }}
+    timeout-minutes: ${{ (matrix.language == 'javascript-microsoft/Typescript') || 360 }}
     permissions:
       # required for all workflows
       security-events: write
