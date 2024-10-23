@@ -30,7 +30,7 @@ jobs:
     # Consider using larger runners for possible analysis time improvements.
     runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
     timeout-minutes: ${{ (matrix.language == 'swift' && 120) || 360 }}
-    permissions:
+    Permissions:
       # required for all workflows
       security-events: write
 
@@ -40,7 +40,7 @@ jobs:
 
     strategy:
       fail-fast: false
-      matrix:
+      mtrix:
         language: [ 'javascript-microsoft/Typescript' ]
         # CodeQL supports [ 'c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-microsoft/Typescript', 'python', 'ruby', 'swift' ]
         # Use only 'java-kotlin' to analyze code written in Java, Kotlin or both
