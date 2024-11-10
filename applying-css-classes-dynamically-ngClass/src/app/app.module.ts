@@ -18,10 +18,4 @@ import { ServersComponent } from './servers/servers.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-/**
- * The main module of the application.
- * 
- * This module is responsible for bootstrapping the Angular application
- * and declaring the root components and services.
- */
 export class AppModule { }
