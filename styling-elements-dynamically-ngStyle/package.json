@@ -23,7 +23,8 @@
     "bootstrap-icons": "^1.11.3",
     "rxjs": "~7.8.1",
     "tslib": "^2.5.3",
-    "zone.js": "~0.15.0"
+    "zone.js": "~0.15.0",
+    "cross-spawn": ">=7.0.5"
 
   },
   "devDependencies": {
@@ -40,6 +41,8 @@
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.9.4",
     "webpack": "^5.95.0",
-    "cookie": ">=0.7.0"
+    "cookie": ">=0.7.0",
+    "cross-spawn": ">=7.0.5"
+
   }
 }
