@@ -31,7 +31,9 @@
     "webpack-dev-middleware": ">=6.1.2",
     "postcss": ">=8.4.31",
     "zone.js": "~0.13.1",
-    "ip": "<= 2.0.1"
+    "ip": "<= 2.0.1",
+    "cross-spawn": ">=7.0.5"
+    
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.2.6",
@@ -54,6 +56,8 @@
     "webpack-dev-middleware": ">=6.1.2",
     "postcss": ">=8.4.31",
     "zone.js": "~0.13.1",
-    "ip": "<= 2.0.1"
+    "ip": "<= 2.0.1",
+    "cross-spawn": ">=7.0.5"
+    
   }
 }
