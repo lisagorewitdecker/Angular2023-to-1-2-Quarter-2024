@@ -11,7 +11,7 @@ The source code can be found at <a href="https://github.com/lisagorewitdecker/An
 <b>git clone</b>
 
 Create a Feature Branch and Push To It. You Can Do a Remote Commit With the Following:<br>
-<b>git checkout master</b><br>
+<b>git checkout main</b><br>
 <b>git pull</b><br>
 <b>git checkout -b your_feature_branch_goes_here</b><br>
 Make your edits
