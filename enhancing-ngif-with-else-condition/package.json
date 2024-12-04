@@ -22,9 +22,9 @@
     "bootstrap-icons": "^1.10.5",
     "rxjs": "~7.8.0",
     "tslib": "^2.8.0",
-    "webpack": ">=5.95.0",
+    "webpack": ">=5.96.1",
     "webpack-dev-middleware": ">=6.1.2",
-    "postcss": ">=8.4.31", 
+    "postcss": ">=8.4.48", 
     "zone.js": "~0.15.0",
     "ip": "<= 2.0.1"
   },
@@ -44,9 +44,9 @@
     "bootstrap-icons": "^1.10.5",
     "rxjs": "~7.8.0",
     "tslib": "^2.8.0",
-    "webpack": ">=5.95.0",
+    "webpack": ">=5.96.1",
     "webpack-dev-middleware": ">=6.1.2",
-    "postcss": ">=8.4.31", 
+    "postcss": ">=8.4.48", 
     "zone.js": "~0.15.0",
     "ip": "<= 2.0.1"
   }
