@@ -10,14 +10,14 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^15.2.9",
+    "@angular/animations": "^19.0.1",
     "@angular/common": "^15.2.9",
     "@angular/compiler": "^15.2.9",
     "@angular/core": "^15.2.9",
     "@angular/forms": "^15.2.9",
     "@angular/platform-browser": "^15.2.9",
     "@angular/platform-browser-dynamic": "^15.2.9",
-    "@angular/router": "^15.2.9",
+    "@angular/router": "^19.0.1",
     "@babel/cli": "^7.22.9",
     "@babel/core": "^7.22.9",
     "@npmcli/fs": "^3.1.0",
@@ -30,18 +30,18 @@
     "webpack": ">=5.95.0",
     "webpack-dev-middleware": ">=6.1.2",
     "postcss": ">=8.4.31",
-    "zone.js": "~0.13.1",
+    "zone.js": "~0.15.0",
     "ip": "<= 2.0.1",
     "cross-spawn": ">=7.0.5",
     "nanoid": ">=3.3.8",
-    "path-to-regexp": ">=0.1.12"
-    
+    "path-to-regexp": ">=8.2.0"
+
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.2.6",
     "@angular/cli": "^15.2.9",
     "@angular/compiler-cli": "^15.2.9",
-    "@babel/cli": "^7.22.9",
+    "@babel/cli": "^7.26.4",
     "@babel/core": "^7.22.9",
     "@types/jasmine": "~4.3.0",
     "http-proxy-middleware": "3.0.3",
@@ -57,11 +57,11 @@
     "webpack": ">=5.95.0",
     "webpack-dev-middleware": ">=6.1.2",
     "postcss": ">=8.4.31",
-    "zone.js": "~0.13.1",
+    "zone.js": "~0.15.0",
     "ip": "<= 2.0.1",
     "cross-spawn": ">=7.0.5",
     "nanoid": ">=3.3.8",
-    "path-to-regexp": ">=0.1.12"
-    
+    "path-to-regexp": ">=8.2.0"
+
   }
 }
