@@ -16,7 +16,7 @@
     "@angular/forms": "^19.0.4",
     "@angular/platform-browser": "^15.2.10",
     "@angular/platform-browser-dynamic": "^15.2.9",
-    "@angular/router": "^19.0.3",
+    "@angular/router": "^19.0.4",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "http-proxy-middleware": ">=3.0.3",
