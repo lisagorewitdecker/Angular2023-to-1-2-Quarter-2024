@@ -10,11 +10,11 @@
   },
   "private": true,
        "dependencies": {
-        "@angular/animations": "^14.2.0",
+        "@angular/animations": "^19.0.1",
         "@angular/common": "^14.2.0",
         "@angular/compiler": "^14.2.0",
         "@angular/core": "^14.2.0",
-        "@angular/forms": "^14.2.0",
+        "@angular/forms": "^19.0.3",
         "@angular/platform-browser": "^14.2.0",
         "@angular/platform-browser-dynamic": "^14.2.0",
         "@angular/router": "^14.2.0",
@@ -29,7 +29,7 @@
         "rollup": ">=4.27.2",
         "ip": "<= 2.0.1",
         "nanoid": ">=3.3.8",
-        "path-to-regexp": ">=0.1.12"
+        "path-to-regexp": ">=8.2.0"
          
       },
       "devDependencies": {
@@ -54,7 +54,7 @@
         "rollup": ">=4.27.2",
         "ip": "<= 2.0.1",
         "nanoid": ">=3.3.8",
-        "path-to-regexp": ">=0.1.12"
+        "path-to-regexp": ">=8.2.0"
         
       }
     }
