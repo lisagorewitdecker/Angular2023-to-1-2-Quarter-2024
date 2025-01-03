@@ -18,8 +18,8 @@
     "@angular/core": "^15.2.9",
     "@angular/forms": "^19.0.3",
     "@angular/platform-browser": "^15.2.9",
-    "@angular/platform-browser-dynamic": "^19.0.3",
-    "@angular/router": "^15.2.9",
+    "@angular/platform-browser-dynamic": "^15.2.9",
+    "@angular/router": "^19.0.1",
     "@babel/cli": "^7.22.9",
     "@babel/core": "^7.22.9",
     "@npmcli/fs": "^3.1.0",
@@ -31,7 +31,7 @@
     "webpack": ">=5.95.0",
     "webpack-dev-middleware": ">=6.1.2",
     "postcss": ">=8.4.31", 
-    "zone.js": "~0.12.0",
+    "zone.js": "~0.15.0",
     "ip": "<= 2.0.1",
     "nanoid": ">=3.3.8",
     "path-to-regexp": ">=0.1.12"
@@ -57,7 +57,7 @@
     "webpack": ">=5.95.0",
     "webpack-dev-middleware": ">=6.1.2",
     "postcss": ">=8.4.31", 
-    "zone.js": "~0.12.0",
+    "zone.js": "~0.15.0",
     "ip": "<= 2.0.1",
     "nanoid": ">=3.3.8",
     "path-to-regexp": ">=0.1.12"
