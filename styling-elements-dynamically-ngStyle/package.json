@@ -26,8 +26,8 @@
     "zone.js": "~0.15.0",
     "cross-spawn": ">=7.0.5",
     "path-to-regexp": ">=0.1.12",
-    "nanoid": ">=5.0.9"
-
+    "nanoid": ">=5.0.9",
+    "vite": ">=5.4.12"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.2.6",
@@ -46,7 +46,7 @@
     "cookie": ">=0.7.0",
     "cross-spawn": ">=7.0.5",
     "nanoid": ">=5.0.9",
-    "path-to-regexp": ">=0.1.12"
-    
+    "path-to-regexp": ">=0.1.12",
+    "vite": ">=5.4.12"
   }
 }
