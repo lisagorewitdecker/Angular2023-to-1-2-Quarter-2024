@@ -1,4 +1,5 @@
 name: "CodeQL"
+
 on:
   push:
     branches: [ main ]
@@ -27,6 +28,7 @@ jobs:
         uses: github/codeql-action/init@v3
         with:
           languages: ${{ matrix.language }}
+          verbosity: info  # Added verbosity level configuration
       - name: Autobuild
         uses: github/codeql-action/autobuild@v3
       - name: Perform CodeQL Analysis
