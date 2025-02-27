@@ -25,10 +25,10 @@
     "tslib": "^2.7.0",
     "path-to-regexp": ">=8.2.0",
     "nanoid": ">=3.3.8",
-    "vite": ">=5.4.12"
+    "vite": ">=6.2.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^18.2.11",
+    "@angular-devkit/build-angular": "^19.2.0",
     "@angular/cli": "~15.2.10",
     "@angular/compiler-cli": "^18.0.0",
     "@angular/core": "^15.2.10",
@@ -48,6 +48,6 @@
     "typescript": "~4.9.4",
     "path-to-regexp": ">=8.2.0",
     "nanoid": ">=3.3.8",
-    "vite": ">=5.4.12"
+    "vite": ">=6.2.0"
   }
 }
