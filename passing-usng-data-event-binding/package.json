@@ -27,10 +27,10 @@
     "zone.js": "~0.15.0",
     "ip": "<= 2.0.1",
     "path-to-regexp": ">=8.2.0",
-    "vite": ">=6.0.9"
+    "vite": ">=6.2.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^18.2.6",
+    "@angular-devkit/build-angular": "^19.2.0",
     "@angular/cli": "~15.2.9",
     "@angular/compiler-cli": "^15.2.9",
     "@babel/cli": "^7.25.6",
@@ -47,6 +47,6 @@
     "webpack": ">=5.95.0",
     "ip": "<= 2.0.1",
     "path-to-regexp": ">=8.2.0",
-    "vite": ">=6.0.9"
+    "vite": ">=6.2.0"
   }
 }
