@@ -23,7 +23,7 @@
     "rxjs": "~7.8.1",
     "tslib": "^2.6.1",
     "zone.js": "~0.14.3",
-    "ip": "<= 2.0.1",
+    "ip": "2.0.1",
     "rollup": ">=4.22.4"
   },
   "devDependencies": {
@@ -39,7 +39,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.7.2",
-    "ip": "<= 2.0.1",
+    "ip": "2.0.1",
     "rollup": ">=4.22.4"
   }
 }
