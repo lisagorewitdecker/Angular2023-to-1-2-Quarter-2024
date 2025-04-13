@@ -26,7 +26,7 @@
     "critters": ">=0.0.20",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "webpack": ">=5.76.0",
+    "webpack": ">=5.94.0",
     "postcss": ">=8.4.35",
     "vite": ">=4.5.13",
     "zone.js": "~0.13.1"
@@ -48,7 +48,7 @@
     "karma-jasmine-html-reporter": "~2.0.0",
     "critters": ">=0.0.20",
     "typescript": "~4.9.4",
-    "webpack": ">=5.76.0",
+    "webpack": ">=5.94.0",
     "postcss": ">=8.4.35",
     "vite": ">=4.5.13"
   }
