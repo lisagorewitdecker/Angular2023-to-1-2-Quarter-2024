@@ -28,7 +28,7 @@
     "path-to-regexp": ">=0.1.12",
     "cross-spawn": ">=7.0.5"
     "ip": "<= 2.0.1",
-    "vite": ">=5.4.16"
+    "vite": ">=5.4.15"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.2.6",
@@ -53,7 +53,7 @@
     "path-to-regexp": ">=0.1.12",
     "cross-spawn": ">=7.0.5",
     "ip": "<= 2.0.1",
-    "vite": ">=5.4.16"
+    "vite": ">=5.4.15"
   },
   "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.",
   "main": "karma.conf.js",
