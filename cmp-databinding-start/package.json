@@ -37,6 +37,7 @@
     "@angular/compiler-cli": "^14.2.0",
     "@types/jasmine": "~4.0.0",
     "@babel/runtime": ">=7.26.10",
+    "@babel/helpers": ">=7.26.10",
     "http-proxy-middleware": ">=3.0.5",
     "bootstrap": "<= 5.0.1",
     "jasmine-core": "~4.3.0",
