@@ -25,7 +25,12 @@
     "tslib": "^2.6.1",
     "zone.js": "~0.14.3",
     "ip": "<= 2.0.1",
-    "rollup": ">=4.22.4"
+    "rollup": ">=4.22.4",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.6.1",
+    "zone.js": "~0.14.3",
+    "typescript": "~4.7.2",
+    "vite": ">=5.4.19"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.3.16",
@@ -40,9 +45,16 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.7.2",
-    "bootstrap": ">=5.0.0",
     "esbuild": ">=0.25.0",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.6.1",
+    "zone.js": "~0.14.3",
     "ip": "<= 2.0.1",
-    "rollup": ">=4.22.4"
+    "rollup": ">=4.22.4",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.6.1",
+    "zone.js": "~0.14.3",
+    "typescript": "~4.7.2",
+    "vite": ">=5.4.19"
   }
 }
