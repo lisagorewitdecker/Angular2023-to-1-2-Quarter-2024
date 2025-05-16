@@ -28,7 +28,7 @@
     "ip": "<= 2.0.1",
     "path-to-regexp": ">=8.2.0",
     "esbuild": ">=0.25.3",
-    "vite": ">=6.3.5"
+    "vite": ">=6.1.6"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.2.0",
@@ -49,6 +49,6 @@
     "ip": "<= 2.0.1",
     "path-to-regexp": ">=8.2.0",
     "esbuild": ">=0.25.3",
-    "vite": ">=6.3.5"
+    "vite": ">=6.1.6"
   }
 }
