@@ -27,8 +27,8 @@
     "zone.js": "~0.15.0",
     "ip": "<= 2.0.1",
     "path-to-regexp": ">=8.2.0",
-    "esbuild": ">=0.25.1",
-    "vite": ">=6.2.7"
+    "esbuild": ">=0.25.2",
+    "vite": ">=6.3.5"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.2.0",
@@ -48,7 +48,7 @@
     "webpack": ">=5.95.0",
     "ip": "<= 2.0.1",
     "path-to-regexp": ">=8.2.0",
-    "esbuild": ">=0.25.1",
-    "vite": ">=6.2.7"
+    "esbuild": ">=0.25.2",
+    "vite": ">=6.3.5"
   }
 }
