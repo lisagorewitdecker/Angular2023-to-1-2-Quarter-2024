@@ -1,3 +1,4 @@
+
 # For most projects, this workflow file will not need changing; you simply need
 # to commit it to your repository.
 #
@@ -21,6 +22,13 @@ on:
 
 jobs:
   analyze:
+  Check failure on line 23 in .github/workflows/codeql.yml
+ 
+GitHub Actions
+  .github/workflows/codeql.yml
+  Invalid workflow file
+
+You have an error in your YAML syntax on line 23
     runs-on: ubuntu-latest
     timeout-minutes: 360
     permissions:
@@ -61,7 +69,7 @@ jobs:
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
         with:
-          category: "/language:${{ matrix.language }}"
+          Category: "/language:${{ matrix.language }}"
     - name: Checkout repository
       uses: actions/checkout@v4
 
@@ -71,15 +79,15 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         build-mode: ${{ matrix.build-mode }}
-        # If you wish to specify custom queries, you can do so here or in a config file.
+        # If you'd like to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
         # Prefix the list here with "+" to use these queries and those in the config file.
 
         # For more details on CodeQL's query packs, refer to: https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs
         # queries: security-extended,security-and-quality
 
-    # If the analyze step fails for one of the languages you are analyzing with
-    # "We were unable to automatically build your code", modify the matrix above
+    # If the analysis step fails for one of the languages you are analyzing with
+    # "We were unable to automatically build your code.", Modify the matrix above
     # to set the build mode to "manual" for that language. Then modify this step
     # to build your code.
     # ℹ️ Command-line programs to run using the OS shell.
@@ -93,7 +101,6 @@ jobs:
         echo '  make bootstrap'
         echo '  make release'
         exit 1
-
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
       with:
