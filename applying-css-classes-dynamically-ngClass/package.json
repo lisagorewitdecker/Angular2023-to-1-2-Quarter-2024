@@ -27,7 +27,7 @@
     "path-to-regexp": ">=8.2.0",
     "nanoid": ">=5.1.5",
     "esbuild": ">=0.25.1",
-    "vite": ">=6.2.7"
+    "vite": ">=6.4.1",
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.2.0",
@@ -52,6 +52,6 @@
     "path-to-regexp": ">=8.2.0",
     "nanoid": ">=5.1.5",
     "esbuild": ">=0.25.1",
-    "vite": ">=6.2.7"
+    "vite": ">=6.4.1",
   }
 }
