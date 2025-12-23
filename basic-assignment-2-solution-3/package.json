@@ -12,7 +12,7 @@
   "dependencies": {
     "@angular/animations": "^15.2.10",
     "@angular/common": "^15.2.9",
-    "@angular/compiler": "^15.2.10",
+    "@angular/compiler": "<= 18.2.14",
     "@angular/core": "^15.2.9",
     "@angular/forms": "^15.2.10",
     "@angular/platform-browser": "^15.2.9",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.2.6",
-    "@angular/cli": "^15.2.9",
+    "@angular/cli": "<= 18.2.14",
     "@angular/compiler-cli": "^15.2.9",
     "@babel/cli": "^7.22.9",
     "@babel/core": "^7.22.9",
