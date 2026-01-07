@@ -1,0 +1,30 @@
+  grype:
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+
+    runs-on: ubuntu-22.04
+    needs: [syft]
+    if: needs.syft.result == 'success'
+
+    steps:
+      - name: Download SBOM
+        uses: actions/download-artifact@v4
+        with:
+          name: poke-cli-sbom-${{ env.VERSION_NUMBER }}.spdx.json
+          path: /tmp
+
+      - name: Scan SBOM
+        uses: anchore/scan-action@v3
+        id: scan
+        with:
+          sbom: poke-cli-sbom-${{ env.VERSION_NUMBER }}.spdx.json
+          fail-build: false
+          output-format: sarif
+          severity-cutoff: critical
+
+      - name: Upload SARIF Report
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: ${{ steps.scan.outputs.sarif }}
