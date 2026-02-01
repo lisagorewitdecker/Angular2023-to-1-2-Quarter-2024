@@ -26,7 +26,14 @@
     "vite": ">=5.4.21",
     "webpack": ">=5.95.0",
     "webpack-dev-middleware": ">=6.1.2",
+    "postcss": ">=8.4.31", 
+    "zone.js": "~0.15.0",
+    "ip": "<= 2.0.1",
+    "node-forge": ">=1.3.2",
+    "vite": ">=5.4.21"
     "zone.js": "~0.15.0"
+    "vite": ">=5.4.21",
+    "qs": ">=6.14.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.2.0",
@@ -52,6 +59,16 @@
     "vite": ">=5.4.21",
     "webpack": ">=5.95.0",
     "webpack-dev-middleware": ">=6.1.2",
+    "postcss": ">=8.4.31", 
+    "zone.js": "~0.15.0",
+    "ip": "<= 2.0.1",
+    "node-forge": ">=1.3.2",
+   "vite": ">=5.4.21"
+  },
+  "overrides": {
+    "qs": ">=6.14.1"
     "zone.js": "~0.15.0"
+    "vite": ">=5.4.21", 
+    "qs": ">=6.14.1"
   }
 }
