@@ -24,7 +24,7 @@
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3",
-    "ip": "<= 2.0.1"
+    "ip": "<= 2.0.1",
     
   },
   "devDependencies": {
@@ -43,6 +43,6 @@
     "webpack-dev-middleware": ">=6.1.2",
     "typescript": "~4.9.4",
     "zone.js": "~0.14.3",
-    "ip": "<= 2.0.1"
+    "ip": "<= 2.0.1",
   }
 }
