@@ -19,12 +19,12 @@
     "bootstrap-icons": "^1.10.5",
     "rxjs": "~7.8.0",
     "tslib": "^2.7.0",
-    "webpack": ">=5.104.1",
+    "webpack": ">=5.95.0",
     "webpack-dev-middleware": ">=7.2.1",
     "postcss": ">=8.4.38", 
     "zone.js": "~0.15.0",
     "ip": "<= 2.0.1",
-    "esbuild": ">=0.25.0",
+    "esbuild": ">=0.25.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.2.6",
@@ -42,11 +42,11 @@
     "bootstrap-icons": "^1.10.5",
     "rxjs": "~7.8.0",
     "tslib": "^2.7.0",
-    "webpack": ">=5.104.1",
+    "webpack": ">=5.95.0",
     "webpack-dev-middleware": ">=7.2.1",
     "postcss": ">=8.4.38", 
     "zone.js": "~0.15.0",
     "ip": "<= 2.0.1",
-    "esbuild": ">=0.25.0",
+    "esbuild": ">=0.25.0"
   }
 }
